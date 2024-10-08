@@ -1,0 +1,86 @@
+/* Global Variables */
+:root {
+  --Slate-300: hsl(212, 45%, 89%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-900: hsl(218, 44%, 22%);
+}
+
+.text-preset-1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--Slate-900);
+}
+
+.text-preset-2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: var(--Slate-500);
+}
+
+/* Resets */
+html,
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Main */
+
+html {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Slate-300);
+}
+
+main {
+  width: 320px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-container {
+  padding: 16px 16px 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.text-wrapper {
+  padding-inline: 16px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  padding: 16px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
